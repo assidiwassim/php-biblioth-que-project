@@ -1,0 +1,322 @@
+/********************************************
+******************** General style *************
+*********************************************/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/********************************************
+******************** HOME style *************
+*********************************************/
+
+#home {
+    margin: -20px 0 0 0;
+    width: 100%;
+    height: 700px;
+}
+
+#home .cover {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/home2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home .effects {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: table;
+}
+
+#home .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 auto 0 auto;
+}
+
+#home .title h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 600%;
+    font-weight: 400px;
+    color: white;
+}
+
+#home .paragraph p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 400%;
+    font-weight: 25px;
+    color: white;
+}
+
+#home .buttons {
+    margin-top: 50px;
+}
+
+#home .stylebutton {
+    border-radius: 0;
+    background-color: transparent !important;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    font-size: 160%;
+    text-decoration: none;
+}
+
+
+/********************************************
+******************** COURS style *************
+*********************************************/
+
+#cours {
+    width: 100%;
+    height: 700px;
+}
+
+#cours {
+    margin: -20px 0 0 0;
+    width: 100%;
+    height: 650px;
+}
+
+#cours .cover {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/cours.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+#cours .effects {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#cours .content {
+    width: 100%;
+    height: 100%;
+    padding: 0.2%;
+    background-color: transparent;
+    box-shadow: 0.5px 0.5px 2px gray;
+}
+
+#cours .box {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: scroll;
+}
+
+
+/********************************************
+******************** APROPOS style *************
+*********************************************/
+
+#apropos {
+    width: 100%;
+    height: 700px;
+}
+
+#apropos .cover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/propos.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#apropos .effects {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#apropos .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 auto 0 auto;
+}
+
+#apropos .title h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 600%;
+    font-weight: 400px;
+    color: white;
+}
+
+
+/********************************************
+******************** footer style *************
+*********************************************/
+
+#footer {
+    height: 46px;
+    margin: 0px 0px;
+    background-color: lightgrey;
+}
+
+#footer .container-fluid p {
+    font-family: Georgia-Italic, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: #464646;
+    text-align: center;
+}
+
+
+/********************************************
+******************** NavBar style *************
+*********************************************/
+
+.navbar {
+    padding: 20px 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.wass-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.wass-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a :hover {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background: none;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    color: lightgray !important;
+    background-color: unset !important;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.wass-top-nav ul.navbar-nav>li.active>a {
+    color: gray;
+    background: none;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .wass-nav-wrapper {
+        padding: 0;
+    }
+}
+
+
+/* Style the tab */
+
+div.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 100%;
+}
+
+
+/* Style the buttons inside the tab */
+
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current "tab button" class */
+
+div.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 100%;
+}
+
+#cours .NomFichier {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cours .Desc {
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+}
